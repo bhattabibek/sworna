@@ -1,0 +1,75 @@
+.destionationtwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.destionationone img{
+width: 540px;
+height: 505px;
+object-fit: cover;
+border-radius: 10px;
+position: relative;
+
+}
+
+.destionationtwo img{
+  
+    object-fit: cover;
+    border-radius: 10px;
+width: 790px;
+height: 250px;
+position: relative;
+}
+.destination{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.text h1{
+    position: absolute;
+    background-color: rgba(0,0,0, 0.3);
+    top: 190px;
+    left: 270px;
+    color: white;
+}
+
+.text2 h1{
+    position: absolute;
+    background-color: rgba(0,0,0, 0.3);
+    top: 130px;
+    left: 960px;
+    color: white;
+}
+.everest h1{
+    position: absolute;
+    background-color: rgba(0,0,0, 0.3);
+    top: 350px;
+    left: 962px;
+    color: white;
+}
+.text button{
+    position: absolute;
+    top: 260px;
+    left: 290px;
+}
+.text2 button{
+    position: absolute;
+    top: 190px;
+    left: 977px;
+}
+.everest button
+
+{
+    position: absolute;
+    top: 415px;
+    left: 970px;
+}
+button{
+    padding:5px;
+    background-color: #004675;
+    color: white;
+  
+}
+
